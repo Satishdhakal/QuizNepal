@@ -1,0 +1,42 @@
+.history-header{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.buttonSub {
+    text-align: center;
+    margin-top: 30px;
+    position: absolute;
+    left: 660px;
+    
+}
+
+.buttonSub .submit{
+    color: black;
+    background: white;
+    transition-delay: 0.1s;
+    height: 50px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+
+ 
+}
+
+.buttonSub .submit:hover{
+    color: white;
+    background: black;
+}
+
+.iconPage{
+    font-size: 40px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    cursor: pointer;
+}
+
+.iconPage:hover{
+    color: rgb(119, 112, 112);
+}
