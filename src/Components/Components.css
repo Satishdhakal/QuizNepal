@@ -10,15 +10,15 @@ body{
 }
 
 .nav{
-    height: 100px;
+    padding: 10px 20px;
     background-color: rgb(10, 10, 10);
-    overflow-y: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
     height: 70px;
-    margin: 15px;
-    margin-left: 90px;
 }
 
 .logo:hover{
@@ -28,14 +28,11 @@ body{
 .nav-links {
     display: flex;
     padding: 16px;
-    float: right;
-    margin-right: 150px;
+    gap: 20px;
 }
 
 .nav-links li{
-    list-style-type: none;
-    padding: 15px;
-    
+    list-style-type: none;    
 }
 
 .nav-links li a{
@@ -68,8 +65,7 @@ body{
     border-radius: 10px;
     font-size: 30px;
     cursor: pointer;
-    
-    
+    width: 90%;
 }
 
 .take-quiz-button:hover{
@@ -90,6 +86,10 @@ body{
     text-align: center;
     padding: 20px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
 }
 
 .button button{
@@ -99,18 +99,13 @@ body{
     background: rgb(47, 45, 45);
     color: white;
     height: 150px;
-    width: 100px; 
-   
+    width: 100%;
 }
 
 .button button:hover{
     background: white;
     color: rgb(47, 45, 45);
     transition: 0.5s;
-}
-
-.button button:last-child{
-    width: 600px;
 }
 
 .history{
@@ -123,11 +118,12 @@ body{
 
 .quiz-temp{
     margin: auto;
-    width: 50%;
+    width: 90%;
     height: auto;
     padding: 30px;
     background: rgb(28, 27, 27);
     color: white;
+    margin-bottom: 10px;
     
 }
 
@@ -145,14 +141,14 @@ body{
 .options{
     
     margin: 10px;
-    width: 500px;
+    width: 100%;
 }
 
 .number{
     font-size: 50px;
     position: relative;
     top: 65px;
-    left: 210px;
+    /* left: 210px; */
 }
 
 
@@ -165,8 +161,8 @@ body{
 .icon{
     position: relative;
     font-size: 40px;
-    left: 200px;
-    top: 120px;
+    left: 20px;
+    top: 20px;
     cursor: pointer;
 }
 
@@ -181,3 +177,18 @@ body{
     margin-top: 40px;
 }
 
+@media (min-width: 568px){
+    .take-quiz-button {
+        width: 60%;
+    }
+}
+
+@media (min-width: 992px){
+    .button {
+        width: 50%;
+    }
+
+    .quiz-temp{
+        width: 50%;
+    }
+}

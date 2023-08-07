@@ -16,9 +16,8 @@ export default function Quiz(props) {
 
   return (
     <>
-      <h1 className="number">{props.number}.</h1>
       <div className="quiz-temp">
-        <h1 className="question">{props.question}</h1>
+        <h1 className="question">{props.number}. {props.question}</h1>
         <br />
         <div className="option">
           <button
@@ -32,6 +31,7 @@ export default function Quiz(props) {
           >
             {props.opt1}
           </button>
+           
           <button
             className="options"
             id="option2"
