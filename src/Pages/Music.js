@@ -18,7 +18,7 @@ export default function Music() {
     <>
       <span className="iconPage">
         <Link to="/">
-          <IoMdArrowRoundBack />
+          <IoMdArrowRoundBack className="arrowIcon"/>
         </Link>
       </span>
       <h1 className="history-header">Music Quiz</h1>

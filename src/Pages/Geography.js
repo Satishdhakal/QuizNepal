@@ -18,7 +18,7 @@ export default function Geography() {
     <>
       <span className="iconPage">
         <Link to="/">
-          <IoMdArrowRoundBack />
+          <IoMdArrowRoundBack className="arrowIcon"/>
         </Link>
       </span>
       <h1 className="history-header">Geography Quiz</h1>

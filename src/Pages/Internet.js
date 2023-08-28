@@ -18,7 +18,7 @@ export default function Internet() {
     <>
       <span className="iconPage">
         <Link to="/">
-          <IoMdArrowRoundBack />
+          <IoMdArrowRoundBack className="arrowIcon"/>
         </Link>
       </span>
       <h1 className="history-header">Internet/Tech Quiz</h1>

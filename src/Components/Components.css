@@ -160,10 +160,10 @@ body{
 
 .icon{
     position: relative;
-    font-size: 40px;
-    left: 20px;
-    top: 20px;
-    cursor: pointer;
+    font-size: 45px;
+    top: 115px;
+    left: 398px;
+    cursor:pointer;
 }
 
 
@@ -191,4 +191,58 @@ body{
     .quiz-temp{
         width: 50%;
     }
+
+    
 }
+
+
+
+.bkg-green{
+    background: green;
+}
+
+.bkg-red{
+    background: red;
+}
+
+.option .go-green{
+    background: green !important;
+    color: white;
+}
+
+.option .go-red{
+    background: red !important;
+    color: white;
+}
+
+.arrowIcon{
+    position: relative;
+    font-size: 45px;
+    top: 90px;
+    left: 360px;
+}
+
+.icon{
+    font-size: 40px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1147px) and (orientation: landscape){
+    .arrowIcon{
+        left: 200px;
+        top: 80px;
+    }
+
+  }
+
+
+  @media screen and (max-width: 900px){
+    .arrowIcon{
+        top: 0px;
+        left: 0px;
+    }
+
+  }

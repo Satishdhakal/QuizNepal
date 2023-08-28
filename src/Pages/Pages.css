@@ -41,3 +41,29 @@
 .iconPage:hover{
     color: rgb(119, 112, 112);
 }
+
+@media screen and (min-width: 30em) and (orientation: landscape) {
+    /* CSS rules here */
+    p {
+      font-size: 0.5rem;
+    }
+
+  }
+
+
+  @media screen and (max-width: 1147px) and (orientation: landscape){
+    .arrowIcon{
+        left: 200px;
+        top: 80px;
+    }
+
+  }
+
+
+  @media screen and (max-width: 900px){
+    .arrowIcon{
+        top: 0px;
+        left: 0px;
+    }
+
+  }

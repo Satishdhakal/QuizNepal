@@ -18,7 +18,7 @@ export default function History() {
     <>
       <span className="iconPage">
         <Link to="/">
-          <IoMdArrowRoundBack />
+          <IoMdArrowRoundBack className="arrowIcon"/>
         </Link>
       </span>
       <h1 className="history-header">History Quiz</h1>
@@ -26,7 +26,7 @@ export default function History() {
         number="1"
         question="Who was the first king of Nepal?"
         opt1="Birendra Shah"
-        opt2="Andrew Tate"
+        opt2="Ryan Gosling"
         opt3="Prithivi Narayan Shah"
         opt4="Junga Bahadur Rana"
         correctAnswer="option3"
@@ -112,7 +112,9 @@ export default function History() {
       {
         isSubmitted && (
           <h3 className="score">SCORE ON HISTORY QUIZ: {score}/{totalQuestions}</h3>
+          
         )
+
       }
 
 

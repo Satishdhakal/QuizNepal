@@ -20,7 +20,7 @@ export default function Body(){
         }
         {content && 
         <div>
-              <span class="icon" id="icon" onClick={()=>setContent(!content)}><IoMdArrowRoundBack /></span>
+              <span class="icon" id="icon" onClick={()=>setContent(!content)}><IoMdArrowRoundBack className="arrowIcon"/></span>
             <h1 className="category-title">Select a category: </h1>
             <div className="button">
             <NavLink to="/history" exact activeClassName="history"><button className="history">History</button></NavLink><NavLink to="/geography"><button className="geography">Geography</button></NavLink>
