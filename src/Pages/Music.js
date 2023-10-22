@@ -69,6 +69,43 @@ export default function Music() {
         effectScore={setScore}
 
       />
+
+
+      <Quiz
+        number="7" question="What is the most viewed Nepali song in YouTube?" opt1="Saali Man Paryo" opt2="Phul Butte Sari" opt3="Gojima Daam Chaina" opt4="Kutu ma kutu"
+        correctAnswer="option4"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
+
+      <Quiz
+        number="8" question="Which song is the lyrics 'K yei nai ho astitto mero' from?" opt1="Bhanai - Tribal Rain" opt2="Putali - The Elements" opt3="Bachau - Albratoss" opt4="Narisawna - Tribal Rain"
+        correctAnswer="option1"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
+
+      <Quiz
+        number="9" question="Who is the most viewed song of Bipul Chhetri on spotify?" opt1="Syndicate" opt2="Aashish" opt3="Ram Sailee" opt4="Asaar"
+        correctAnswer="option1"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
+
+      <Quiz
+        number="10" question="Who is the singer of 'Mohani lagla hai'?" opt1="Naryan Gopal" opt2="Arun Thapa" opt3="Nepathya" opt4="Albatross"
+        correctAnswer="option1"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
       {!isSubmitted && (
         <>
         <div className="buttonSub">

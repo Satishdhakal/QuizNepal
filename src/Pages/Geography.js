@@ -5,7 +5,7 @@ import { IoMdArrowRoundBack } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 export default function Geography() {
-  const totalQuestions = 6;
+  const totalQuestions = 10;
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [score, setScore] = useState(0);
 
@@ -64,6 +64,43 @@ export default function Geography() {
       <Quiz
         number="6" question="Which province is Nuwakot in?" opt1="Gandaki" opt2="Bagmati" opt3="Lumbini" opt4="Sudurpaschim"
         correctAnswer="option2"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
+
+      <Quiz
+        number="7" question="Which district is fungfung waterfall located?" opt1="Jhapa" opt2="Rasuwa" opt3="Nuwakot" opt4="Dhading"
+        correctAnswer="option3"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
+
+
+      <Quiz
+        number="8" question="What is the name of Kathmandu-Pokhara highway?" opt1="Tribhuvan" opt2="Mahendra" opt3="Araniko" opt4="Prithivi"
+        correctAnswer="option4"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
+
+      <Quiz
+        number="9" question="Which temple is in Nepal's highest altitude?" opt1="Gosaikunda" opt2="Muktinath" opt3="Pathivara" opt4="Swayambhunath"
+        correctAnswer="option2"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
+
+      <Quiz
+        number="10" question="Which district is lalitpur located in?" opt1="Bagmati" opt2="Kathmandu" opt3="Bhaktapur" opt4="Lalitpur"
+        correctAnswer="option4"
         isSubmitted={isSubmitted}
         currentScore={score}
         effectScore={setScore}

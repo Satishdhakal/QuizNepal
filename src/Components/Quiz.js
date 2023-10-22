@@ -13,8 +13,6 @@ export default function Quiz(props) {
     }
   }, [selectedOption, props.correctAnswer]);
 
-  
-  
 
   return (
     <>

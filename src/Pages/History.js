@@ -5,7 +5,7 @@ import { IoMdArrowRoundBack } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 export default function History() {
-  const totalQuestions = 6;
+  const totalQuestions = 10;
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [score, setScore] = useState(0);
 
@@ -24,10 +24,10 @@ export default function History() {
       <h1 className="history-header">History Quiz</h1>
       <Quiz
         number="1"
-        question="Who was the first king of Nepal?"
+        question="Who is the first authentic king of Nepal?"
         opt1="Birendra Shah"
-        opt2="Ryan Gosling"
-        opt3="Prithivi Narayan Shah"
+        opt2="Prithivi Narayan Shah"
+        opt3="Mandev"
         opt4="Junga Bahadur Rana"
         correctAnswer="option3"
         isSubmitted={isSubmitted}
@@ -94,6 +94,64 @@ export default function History() {
         opt3="Mahendra Shah"
         opt4="Dipendra Shah"
         correctAnswer="option2"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
+
+    <Quiz
+        number="7"
+        question="Which is the first college of Nepal?"
+        opt1="Trichandra College"
+        opt2="Pulchowk College"
+        opt3="ASCOL College"
+        opt4="St.Xavier's College"
+        correctAnswer="option1"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
+
+
+      <Quiz
+        number="8"
+        question="Where is the head of Bhimsen Thapa located?"
+        opt1="Museum of Kathmandu"
+        opt2="Museum of London"
+        opt3="Museum of Delhi"
+        opt4="No Museum"
+        correctAnswer="option2"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
+
+      <Quiz
+        number="9"
+        question="How many dharara was there originally?"
+        opt1="One"
+        opt2="Two"
+        opt3="Three"
+        opt4="Four"
+        correctAnswer="option2"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
+
+
+      <Quiz
+        number="10"
+        question="Who built the Rani Mahal in Palpa?"
+        opt1="Bhimsen Thapa"
+        opt2="Dipendra Shah"
+        opt3="Tribhuvan Bikram Shah"
+        opt4="Khadak Shamser"
+        correctAnswer="option4"
         isSubmitted={isSubmitted}
         currentScore={score}
         effectScore={setScore}

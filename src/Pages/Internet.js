@@ -5,7 +5,7 @@ import { IoMdArrowRoundBack } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 export default function Internet() {
-  const totalQuestions = 6;
+  const totalQuestions = 10;
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [score, setScore] = useState(0);
 
@@ -64,6 +64,44 @@ export default function Internet() {
       <Quiz
         number="6" question="What is the most installed app of Nepal in playstore?" opt1="Esewa" opt2="Khalti" opt3="Hamro Patro" opt4="Daraz"
         correctAnswer="option3"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
+
+
+      <Quiz
+        number="7" question="Most popular social media app in Nepal?" opt1="Facebook" opt2="Facebook lite" opt3="Tiktok" opt4="Tiktok lite"
+        correctAnswer="option4"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
+
+
+      <Quiz
+        number="8" question="Most played video game in Nepal?" opt1="FreeFire" opt2="PUBG Mobile" opt3="Mobile Legends" opt4="Valorant"
+        correctAnswer="option1"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
+
+      <Quiz
+        number="9" question="What is the most followed facebook page of Nepal?" opt1="Routine of Nepal Banda" opt2="Ncell" opt3="OSnepal" opt4="eKantipur"
+        correctAnswer="option3"
+        isSubmitted={isSubmitted}
+        currentScore={score}
+        effectScore={setScore}
+
+      />
+
+      <Quiz
+        number="10" question="Who is most followed on twitter in Nepal?" opt1="Baburam Bhattarai" opt2="Gangan Thapa" opt3="Kamal Thapa" opt4="Narayan Shrestha"
+        correctAnswer="option1"
         isSubmitted={isSubmitted}
         currentScore={score}
         effectScore={setScore}
