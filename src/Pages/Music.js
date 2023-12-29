@@ -5,7 +5,7 @@ import { IoMdArrowRoundBack } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 export default function Music() {
-  const totalQuestions = 6;
+  const totalQuestions = 10;
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [score, setScore] = useState(0);
 
