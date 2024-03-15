@@ -1,0 +1,667 @@
+[
+    {
+        "question": "Which is the biggest district of Nepal?", 
+        "option1": "Kathmandu",
+        "option2": "Dolpa",
+        "option3": "Gorkha",
+        "option4": "Humla",
+        "correctAns": "option2"
+    },
+
+        {
+            "question": "Which is the highest mountain in Nepal and the world, located in the Himalayas?",
+            "option1": "Mount Kanchenjunga",
+            "option2": "Mount Everest",
+            "option3": "Mount Makalu",
+            "option4": "Mount Lhotse",
+            "correctAns": "option2"
+        },
+        {
+            "question": "Which river is the longest in Nepal?",
+            "option1": "Kosi River",
+            "option2": "Gandaki River",
+            "option3": "Karnali River",
+            "option4": "Saptakoshi River",
+            "correctAns": "option3"
+        },
+        {
+            "question": "What is the capital city of Nepal?",
+            "option1": "Pokhara",
+            "option2": "Lalitpur",
+            "option3": "Kathmandu",
+            "option4": "Biratnagar",
+            "correctAns": "option3"
+        },
+        {
+            "question": "Which national park in Nepal is famous for its population of Bengal tigers?",
+            "option1": "Chitwan National Park",
+            "option2": "Sagarmatha National Park",
+            "option3": "Langtang National Park",
+            "option4": "Khaptad National Park",
+            "correctAns": "option1"
+        },
+        {
+            "question": "Which lake in Nepal is revered as a sacred pilgrimage site for Hindus and Buddhists?",
+            "option1": "Rara Lake",
+            "option2": "Tilicho Lake",
+            "option3": "Phewa Lake",
+            "option4": "Gosaikunda Lake",
+            "correctAns": "option4"
+        },
+        {
+            "question": "What is the major religion practiced in Nepal?",
+            "option1": "Hinduism",
+            "option2": "Buddhism",
+            "option3": "Islam",
+            "option4": "Christianity",
+            "correctAns": "option1"
+        },
+        {
+            "question": "Which is the southernmost point of Nepal?",
+            "option1": "Janakpur",
+            "option2": "Mahendranagar",
+            "option3": "Birgunj",
+            "option4": "Bhimphedi",
+            "correctAns": "option3"
+        },
+        {
+            "question": "Which is the biggest district of Nepal?",
+            "option1": "Kathmandu",
+            "option2": "Dolpa",
+            "option3": "Gorkha",
+            "option4": "Humla",
+            "correctAns": "option4"
+        },
+        {
+            "question": "Which valley is known as the 'Valley of Lakes' in Nepal?",
+            "option1": "Pokhara Valley",
+            "option2": "Kathmandu Valley",
+            "option3": "Surkhet Valley",
+            "option4": "Jumla Valley",
+            "correctAns": "option1"
+        },
+        {
+            "question": "What is the highest pass in Nepal that lies on the Great Himalaya Trail?",
+            "option1": "Renjo La Pass",
+            "option2": "Thorong La Pass",
+            "option3": "Cho La Pass",
+            "option4": "Tilicho Pass",
+            "correctAns": "option2"
+        },
+            {
+                "question": "In which district, 'Jhimmila Lake' is located?", 
+                "option1": "Kanchanpur",
+                "option2": "Dang",
+                "option3": "Sindhupalchowk",
+                "option4": "Lalitpur",
+                "correctAns": "option1"
+            },
+            {
+                "question": "Which is Nepal's first Sugar factory?",
+                "option1": "Morang Sugar Factory",
+                "option2": "Kapilvastu Sugar Mill",
+                "option3": "Rupandehi Sugar Mills",
+                "option4": "Biratnagar Sugar Mills",
+                "correctAns": "option1"
+            },
+            {
+                "question": "In which district is Gadhimai temple located?",
+                "option1": "Bara",
+                "option2": "Dhanusha",
+                "option3": "Mahottari",
+                "option4": "Saptari",
+                "correctAns": "option1"
+            },
+            {
+                "question": "What is the ancient name of Budhigandaki river?",
+                "option1": "Kali Gandaki",
+                "option2": "Shitprava",
+                "option3": "Karnali",
+                "option4": "Tamur",
+                "correctAns": "option2"
+            },
+            {
+                "question": "Which mountain is known as 'Killer mountain'?",
+                "option1": "Everest",
+                "option2": "K2",
+                "option3": "Annapurna",
+                "option4": "Manaslu",
+                "correctAns": "option2"
+            },
+            {
+                "question": "Where is Xinnamasta Bhagwati located?",
+                "option1": "Kailali",
+                "option2": "Saptari",
+                "option3": "Sindhupalchowk",
+                "option4": "Dang",
+                "correctAns": "option2"
+            },
+            {
+                "question": "What is the distance between Nepal and the nearest sea?",
+                "option1": "821 km",
+                "option2": "1126 km",
+                "option3": "1505 km",
+                "option4": "2038 km",
+                "correctAns": "option2"
+            },
+            {
+                "question": "Where is Kulekhani-I Hydroproject located?",
+                "option1": "Sindhuli",
+                "option2": "Makwanpur",
+                "option3": "Ramechhap",
+                "option4": "Dolakha",
+                "correctAns": "option2"
+            },
+            {
+                "question": "In which district is Tilicho Lake located?",
+                "option1": "Mustang",
+                "option2": "Manang",
+                "option3": "Dolpa",
+                "option4": "Solukhumbu",
+                "correctAns": "option2"
+            },
+            {
+                "question": "How many times is India bigger than Nepal?",
+                "option1": "10 times",
+                "option2": "15 times",
+                "option3": "20 times",
+                "option4": "22 times",
+                "correctAns": "option4"
+            },
+            {
+                "question": "At what height from sea level is Tilicho Lake situated?",
+                "option1": "4200 m",
+                "option2": "4587 m",
+                "option3": "4919 m",
+                "option4": "5325 m",
+                "correctAns": "option3"
+            },
+            {
+                "question": "In which district is Arun Valley situated?",
+                "option1": "Solukhumbu",
+                "option2": "Sankhuwasabha",
+                "option3": "Dhankuta",
+                "option4": "Khotang",
+                "correctAns": "option2"
+            },
+            {
+                "question": "Which is the largest desert of Asia?",
+                "option1": "Gobi Desert",
+                "option2": "Thar Desert",
+                "option3": "Karakum Desert",
+                "option4": "Dasht-e Kavir",
+                "correctAns": "option1"
+            },
+            {
+                "question": "Where is Sri Lanka Tappu located in Nepal?",
+                "option1": "Morang",
+                "option2": "Sunsari",
+                "option3": "Jhapa",
+                "option4": "Kapilvastu",
+                "correctAns": "option2"
+            },
+            {
+                "question": "In Nepal, which river flows towards north?",
+                "option1": "Karnali",
+                "option2": "Koshi",
+                "option3": "Narayani",
+                "option4": "Gandaki",
+                "correctAns": "option1"
+            },
+            {
+                "question": "In which district is Lead's mine situated?",
+                "option1": "Kathmandu",
+                "option2": "Baglung",
+                "option3": "Rasuwa",
+                "option4": "Lamjung",
+                "correctAns": "option2"
+            },
+            {
+                "question": "In which district is Chamero Gupha (bat's cave) situated?",
+                "option1": "Kaski",
+                "option2": "Dang",
+                "option3": "Rolpa",
+                "option4": "Pyuthan",
+                "correctAns": "option2"
+            },
+            {
+                "question": "In which district is Nanda-vauju lake situated?",
+                "option1": "Chitwan",
+                "option2": "Kaski",
+                "option3": "Lamjung",
+                "option4": "Nuwakot",
+                "correctAns": "option1"
+            },
+            {
+                "question": "How many national parks are there in Nepal (as of September 2017)?",
+                "option1": "10",
+                "option2": "11",
+                "option3": "12",
+                "option4": "13",
+                "correctAns": "option3"
+            },
+            {
+                "question": "Which is the nearest seaport from Nepal?",
+                "option1": "Mumbai Seaport",
+                "option2": "Chittagong Seaport",
+                "option3": "Kolkata Seaport",
+                "option4": "Visakhapatnam Seaport",
+                "correctAns": "option3"
+            },
+            {
+                "question": "Which is the deepest lake of Nepal?",
+                "option1": "Phoksundo Lake",
+                "option2": "Rara Lake",
+                "option3": "Tilicho Lake",
+                "option4": "Shey Phoksundo Lake",
+                "correctAns": "option4"
+            },
+            
+    {
+        "question": "Who is the first king of Nepal?", 
+        "option1": "Mandev",
+        "option2": "Birendra Shah",
+        "option3": "Junga bahadur rana",
+        "option4": "Prithivi Narayan Shah",
+        "correctAns": "option4"
+    },
+    {
+        "question": "Who was the first Scientist of Nepal?", 
+        "option1": "Rameshor Shumsher",
+        "option2": "Gehendra Shumsher",
+        "option3": "Padma Shumsher",
+        "option4": "Gopindra Shah",
+        "correctAns": "option2"
+    },
+    {
+        "question": "Who banned sati pratha?", 
+        "option1": "Junga Bahadur Rana",
+        "option2": "Chandra Shumsher",
+        "option3": "Gehendra Shumsher",
+        "option4": "Padma Shumsher",
+        "correctAns": "option2"
+    },
+    {
+        "question": "When did anglo nepal war start?", 
+        "option1": "1914",
+        "option2": "1814",
+        "option3": "1894",
+        "option4": "1794",
+        "correctAns": "option2"
+    },
+    {
+        "question": "Who was the last king of Nepal?", 
+        "option1": "Birendra Shah",
+        "option2": "Mahendra Shah",
+        "option3": "Gyanendra Shah",
+        "option4": "Dipendra Shah",
+        "correctAns": "option3"
+    },
+    {
+        "question": "What is the first college of Nepal?", 
+        "option1": "Trichandra College",
+        "option2": "Pulchowk College",
+        "option3": "ASCOL College",
+        "option4": "St.Xavier's College",
+        "correctAns": "option1"
+    },
+    {
+        "question": "Where is the head of bhimsen thapa located?", 
+        "option1": "Museum of Kathmandu",
+        "option2": "Museum of London",
+        "option3": "Museum of Delhi",
+        "option4": "No museum",
+        "correctAns": "option2"
+    },
+    {
+        
+        "question": "What is the first college of Nepal?", 
+        "option1": "Trichandra College",
+        "option2": "Pulchowk College",
+        "option3": "ASCOL College",
+        "option4": "St.Xavier's College",
+        "correctAns": "option1"
+    },
+    {
+        "question": "How many dharara was there originally?", 
+        "option1": "One",
+        "option2": "Two",
+        "option3": "Three",
+        "option4": "Four",
+        "correctAns": "option2"
+    },
+    {
+    		"question": "When was the Bir hospital built?",
+    	"option1": "1823",
+        "option2": "1901",
+        "option3": "1947",
+        "option4": "2002",
+        "correctAns": "option3"
+    },
+    {
+    	"question": "Who built the Rani Mahal in Palpa?",
+    	"option1": "Khadak Shamsher",
+        "option2": "Chandra Shamsher",
+        "option3": "Prachandev",
+        "option4": "Rudrasen",
+        "correctAns": "option1"
+    },
+    {
+    	"question": "When was the first Muluki Act introduced in Nepal?",
+    	"option1": "1810",
+        "option2": "1910",
+        "option3": "1850",
+        "option4": "2002",
+        "correctAns": "option2"
+    		
+    },
+    {
+    	"question": "What is the height of the Pashupati Nath Temple?",
+    	"option1": "10 meters 05 centimerters",
+        "option2": "21 meters 07 centimeters",
+        "option3": "4 meters 02 centimeters",
+        "option4": "43 meters 07 centimeters",
+        "correctAns": "option2"
+    },
+    {
+    	"question": "How many years did the Gopal dynasty rule in Nepal?",
+    	"option1": "952 years",
+        "option2": "239 years",
+        "option3": "90 years",
+        "option4": "521 years",
+        "correctAns": "option4"
+    },
+    {
+    		"question": "The custom ‘Lalmohar’ goes back to the time of which king?",
+    		"option1": "Ran Bahadur Shah",
+        "option2": "Prithvi Narayan Shah",
+        "option3": "Yoganarendra Malla",
+        "option4": "Rudrasen",
+        "correctAns": "option2"
+    },
+    {
+    	"question": "How many sections are there in the Sugauli Treaty?",
+    	"option1": "Nine",
+        "option2": "Three",
+        "option3": "Eleven",
+        "option4": "Seven",
+        "correctAns": "option1" 
+    },
+    {
+    		"question": "In which district is the Vareva Palace located?",
+    		"option1": "Baitadi",
+        "option2": "Bhojpur",
+        "option3": "Morang",
+        "option4": "Bara",
+        "correctAns": "option4" 
+    },
+    {
+    		"question": "Who is the king custom of Gold Asarfi?",
+    		"option1": "Rudrasen",
+        "option2": "Ran Bahadur Shah",
+        "option3": "Mandev",
+        "option4": "Yoganarendra Malla",
+        "correctAns": "option2" 
+    },
+    {
+    		"question": "Who is the King who is believed to be still alive?",
+    		"option1": "Yoganarendra Malla",
+        "option2": "Ran Bahadur Shah",
+        "option3": "Mandev",
+        "option4": "Jayaprakash Malla",
+        "correctAns": "option1" 
+    },
+    {
+    		"question": "Which is the oldest temple of Nepal?",
+    		"option1": "Janakpur",
+        "option2": "Pashupatinath",
+        "option3": "Swayambunath",
+        "option4": "Dakshinakali",
+        "correctAns": "option3" 
+    },
+    {
+    	"question": "When did Royal massacre take place?",
+    	"option1": "2030, Jestha 17",
+        "option2": "2021, Jestha 16",
+        "option3": "2058, Jestha 19",
+        "option4": "2068, Jestha 18",
+        "correctAns": "option3" 
+    },
+    {
+    		"question": "What is the name of the first constitution of Nepal?",
+    		"option1": "The Nepal Government Act",
+        "option2": "The Interim Government Legal Act of Nepal",
+        "option3": "The Constitution of Kingdom of Nepal",
+        "option4": "Interim Constitution of Nepal",
+        "correctAns": "option1" 
+    },
+    {
+    		
+    		"question": "When did Gorkha get victory over Nuwakot?",
+    		"option1": "15 Ashwin, 1801 B.S.",
+        "option2": "20 Ashwin, 1893 B.S.",
+        "option3": "25 kartik, 1940 B.S.",
+        "option4": "30 kartik, 2031 B.S.",
+        "correctAns": "option1" 
+    },
+    {
+    		"question": "Who was the mother of Prithivi Narayan Shah?",
+    		"option1": "Chandraprabhawati",
+        "option2": "Buddhimati",
+        "option3": "Kaushalyavati",
+        "option4": "Subhadrawati",
+        "correctAns": "option3" 
+    },
+    {
+    		"question": "Simraungadh State (Kingdom) currently locates in -",
+    		"option1": "Kathmandu",
+        "option2": "Bara district",
+        "option3": "Lalitpur",
+        "option4": "Bihar",
+        "correctAns": "option2" 
+    },
+    {
+    		"question": "Who was the first king of Ahir Dynasty?",
+    		"option1": "Yalamber",
+        "option2": "Gasti",
+        "option3": "Bar Singh",
+        "option4": "Bhuvan Singh",
+        "correctAns": "option3" 
+    },
+    {
+    		"question": "How long Kirant Dynasty ruled Nepal?",
+    		"option1": "1090 years",
+        "option2": "1150 years",
+        "option3": "1194 years",
+        "option4": "1118 years",
+        "correctAns": "option4" 
+    },
+    {
+    		"question": "Golden Period in the history of Nepal is called during the regime of?",
+    		"option1": "Ahir Dynasty",
+        "option2": "Kirant Dynasty",
+        "option3": "Lichhavi Dynasty",
+        "option4": "Gopal Dynasty",
+        "correctAns": "option3" 
+    },
+    {
+    		"question": "Which Dynasty ruled Nepal after Gopal Dynasty?",
+    		"option1": "Ahir Dynasty",
+        "option2": "Kirant Dynasty",
+        "option3": "Lichhavi Dynasty",
+        "option4": "Gopal Dynasty",
+        "correctAns": "option1" 
+    },
+    {
+    		"question": "After Gopal and Ahir Dynasty which Dynasty came to rule Nepal?",
+    		"option1": "Lichhavi Dynasty",
+        "option2": "Kirant Dynasty",
+        "option3": "Gopal kept ruling",
+        "option4": "None",
+        "correctAns": "option2" 
+    },
+    {
+    		"question": "Who is known as ‘The Tiger of the House’?",
+    		"option1": "Chandra Shamsher",
+        "option2": "Khadak Shamsher",
+        "option3": "Bhim Shamsher",
+        "option4": "Rudra Sen",
+        "correctAns": "option1" 
+    },
+    {
+    		"question": "When did Pratap Malla build the queen pool?",
+    		"option1": "B.S. 1707",
+        "option2": "B.S. 1727",
+        "option3": "B.S. 1749",
+        "option4": "B.S. 1801",
+        "correctAns": "option2" 
+    },
+    {
+    		"question": "What is the currency used by the ‘Gunkamdev’?",
+    		"option1": "Gunanka",
+        "option2": "Mananka",
+        "option3": "Pann",
+        "option4": "Rupee",
+        "correctAns": "option1" 
+    },
+    {
+    		"question": "When did paper note start in Nepal?",
+    		"option1": " B.S. 2002 Ashoj 01",
+        "option2": " B.S. 2012 Ashoj 01",
+        "option3": " B.S. 2022 Ashoj 01",
+        "option4": " B.S. 2032 Ashoj 01",
+        "correctAns": "option1" 
+    },
+    {
+    		"question": "Who is known by the nickname ‘Bullet Maharaj’?",
+    		"option1": "Ran Bahadur Shah",
+        "option2": "Veer Shamsher",
+        "option3": "Yuvraj Trailokya",
+        "option4": "Ram Shah",
+        "correctAns": "option3" 
+    },
+    {
+    		"question": "When did the use of computer start in Nepal?",
+    		"option1": "B.S. 2005",
+        "option2": "B.S. 2022",
+        "option3": "B.S. 2028",
+        "option4": "B.S. 2051",
+        "correctAns": "option3" 
+    },
+    {
+    		"question": "Who built the Bhadradhivas?",
+    		"option1": "Anshuverma",
+        "option2": "Prithvi Narayan Shah",
+        "option3": "Narendradev",
+        "option4": "Ran Bahadur Shah",
+        "correctAns": "option3" 
+    },
+    {
+    		"question": "Who was the editor of ‘Aawaj’ of Nepal’s first daily magazine?",
+    		"option1": "Siddhicharan Shrestha",
+        "option2": "Pandit Nardev",
+        "option3": "Premraj",
+        "option4": "Barun Shamsher",
+        "correctAns": "option1" 
+    },
+    {
+    		"question": "Who built the Mangriha and Changunarayan temples?",
+    		"option1": "Nanyadev",
+        "option2": "Mandev",
+        "option3": "Prachandev",
+        "option4": "Dharmdev",
+        "correctAns": "option2" 
+    },
+    {
+        "number": "1",
+        "question": "Who is known as 'Swor Samrat'?",
+        "option1": "Nabin K bhattarai",
+        "option2": "Anju Panta",
+        "option3": "Narayan Gopal",
+        "option4": "Sugam Pokharel",
+        "correctAnswer": "option3"
+      },
+      {
+        "number": "2",
+        "question": "Who is the singer of 'Lakhau Hajarau'?",
+        "option1": "Yabesh Thapa",
+        "option2": "Samir Shrestha",
+        "option3": "Shashwot Khadka",
+        "option4": "bekcha",
+        "correctAnswer": "option1"
+      },
+      {
+        "number": "3",
+        "question": "Which Nepali band sang 'Bagaicha'?",
+        "option1": "1974 AD",
+        "option2": "Nepathya",
+        "option3": "Kta haru",
+        "option4": "Phosphenes",
+        "correctAnswer": "option3"
+      },
+      {
+        "number": "4",
+        "question": "Which song is this from: 'Kalo lamo pareli kesha'?",
+        "option1": "Malai nasodha",
+        "option2": "Gajalu ti thula thula aakha",
+        "option3": "Tutnu Thiyo Tutyo Mutu",
+        "option4": "Kehi Mitho Baat Gara",
+        "correctAnswer": "option2"
+      },
+      {
+        "number": "5",
+        "question": "Who is the first rapper of Nepal?",
+        "option1": "Uniq Poet",
+        "option2": "Yama Buddha",
+        "option3": "Girish Khatiwada",
+        "option4": "Laure",
+        "correctAnswer": "option3"
+      },
+      {
+        "number": "6",
+        "question": "Who is the singer for 'Aaudai Jadai'?",
+        "option1": "The Uglyz",
+        "option2": "Kush",
+        "option3": "1974 AD",
+        "option4": "Ulto Pulto",
+        "correctAnswer": "option1"
+      },
+      {
+        "number": "7",
+        "question": "What is the most viewed Nepali song in YouTube?",
+        "option1": "Saali Man Paryo",
+        "option2": "Phul Butte Sari",
+        "option3": "Gojima Daam Chaina",
+        "option4": "Kutu ma kutu",
+        "correctAnswer": "option4"
+      },
+      {
+        "number": "8",
+        "question": "Which song is the lyrics 'K yei nai ho astitto mero' from?",
+        "option1": "Bhanai - Tribal Rain",
+        "option2": "Putali - The Elements",
+        "option3": "Bachau - Albratoss",
+        "option4": "Narisawna - Tribal Rain",
+        "correctAnswer": "option1"
+      },
+      {
+        "number": "9",
+        "question": "Who is the most viewed song of Bipul Chhetri on spotify?",
+        "option1": "Syndicate",
+        "option2": "Aashish",
+        "option3": "Ram Sailee",
+        "option4": "Asaar",
+        "correctAnswer": "option1"
+      },
+      {
+        "number": "10",
+        "question": "Who is the singer of 'Mohani lagla hai'?",
+        "option1": "Naryan Gopal",
+        "option2": "Arun Thapa",
+        "option3": "Nepathya",
+        "option4": "Albatross",
+        "correctAnswer": "option1"
+      }
+    		
+
+]
