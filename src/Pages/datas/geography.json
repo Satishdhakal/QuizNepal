@@ -1,0 +1,261 @@
+[
+    {
+        "question": "Which is the biggest district of Nepal?", 
+        "option1": "Kathmandu",
+        "option2": "Dolpa",
+        "option3": "Gorkha",
+        "option4": "Humla",
+        "correctAns": "option4"
+    },
+
+        {
+            "question": "Which is the highest mountain in Nepal and the world, located in the Himalayas?",
+            "option1": "Mount Kanchenjunga",
+            "option2": "Mount Everest",
+            "option3": "Mount Makalu",
+            "option4": "Mount Lhotse",
+            "correctAns": "option2"
+        },
+        {
+            "question": "Which river is the longest in Nepal?",
+            "option1": "Kosi River",
+            "option2": "Gandaki River",
+            "option3": "Karnali River",
+            "option4": "Saptakoshi River",
+            "correctAns": "option3"
+        },
+        {
+            "question": "What is the capital city of Nepal?",
+            "option1": "Pokhara",
+            "option2": "Lalitpur",
+            "option3": "Kathmandu",
+            "option4": "Biratnagar",
+            "correctAns": "option3"
+        },
+        {
+            "question": "Which national park in Nepal is famous for its population of Bengal tigers?",
+            "option1": "Chitwan National Park",
+            "option2": "Sagarmatha National Park",
+            "option3": "Langtang National Park",
+            "option4": "Khaptad National Park",
+            "correctAns": "option1"
+        },
+        {
+            "question": "Which lake in Nepal is revered as a sacred pilgrimage site for Hindus and Buddhists?",
+            "option1": "Rara Lake",
+            "option2": "Tilicho Lake",
+            "option3": "Phewa Lake",
+            "option4": "Gosaikunda Lake",
+            "correctAns": "option4"
+        },
+        {
+            "question": "What is the major religion practiced in Nepal?",
+            "option1": "Hinduism",
+            "option2": "Buddhism",
+            "option3": "Islam",
+            "option4": "Christianity",
+            "correctAns": "option1"
+        },
+        {
+            "question": "Which is the southernmost point of Nepal?",
+            "option1": "Janakpur",
+            "option2": "Mahendranagar",
+            "option3": "Birgunj",
+            "option4": "Bhimphedi",
+            "correctAns": "option3"
+        },
+        {
+            "question": "Which is the biggest district of Nepal?",
+            "option1": "Kathmandu",
+            "option2": "Dolpa",
+            "option3": "Gorkha",
+            "option4": "Humla",
+            "correctAns": "option4"
+        },
+        {
+            "question": "Which valley is known as the 'Valley of Lakes' in Nepal?",
+            "option1": "Pokhara Valley",
+            "option2": "Kathmandu Valley",
+            "option3": "Surkhet Valley",
+            "option4": "Jumla Valley",
+            "correctAns": "option1"
+        },
+        {
+            "question": "What is the highest pass in Nepal that lies on the Great Himalaya Trail?",
+            "option1": "Renjo La Pass",
+            "option2": "Thorong La Pass",
+            "option3": "Cho La Pass",
+            "option4": "Tilicho Pass",
+            "correctAns": "option2"
+        },
+            {
+                "question": "In which district, 'Jhimmila Lake' is located?", 
+                "option1": "Kanchanpur",
+                "option2": "Dang",
+                "option3": "Sindhupalchowk",
+                "option4": "Lalitpur",
+                "correctAns": "option1"
+            },
+            {
+                "question": "Which is Nepal's first Sugar factory?",
+                "option1": "Morang Sugar Factory",
+                "option2": "Kapilvastu Sugar Mill",
+                "option3": "Rupandehi Sugar Mills",
+                "option4": "Biratnagar Sugar Mills",
+                "correctAns": "option1"
+            },
+            {
+                "question": "In which district is Gadhimai temple located?",
+                "option1": "Bara",
+                "option2": "Dhanusha",
+                "option3": "Mahottari",
+                "option4": "Saptari",
+                "correctAns": "option1"
+            },
+            {
+                "question": "What is the ancient name of Budhigandaki river?",
+                "option1": "Kali Gandaki",
+                "option2": "Shitprava",
+                "option3": "Karnali",
+                "option4": "Tamur",
+                "correctAns": "option2"
+            },
+            {
+                "question": "Which mountain is known as 'Killer mountain'?",
+                "option1": "Everest",
+                "option2": "K2",
+                "option3": "Annapurna",
+                "option4": "Manaslu",
+                "correctAns": "option2"
+            },
+            {
+                "question": "Where is Xinnamasta Bhagwati located?",
+                "option1": "Kailali",
+                "option2": "Saptari",
+                "option3": "Sindhupalchowk",
+                "option4": "Dang",
+                "correctAns": "option2"
+            },
+            {
+                "question": "What is the distance between Nepal and the nearest sea?",
+                "option1": "821 km",
+                "option2": "1126 km",
+                "option3": "1505 km",
+                "option4": "2038 km",
+                "correctAns": "option2"
+            },
+            {
+                "question": "Where is Kulekhani-I Hydroproject located?",
+                "option1": "Sindhuli",
+                "option2": "Makwanpur",
+                "option3": "Ramechhap",
+                "option4": "Dolakha",
+                "correctAns": "option2"
+            },
+            {
+                "question": "In which district is Tilicho Lake located?",
+                "option1": "Mustang",
+                "option2": "Manang",
+                "option3": "Dolpa",
+                "option4": "Solukhumbu",
+                "correctAns": "option2"
+            },
+            {
+                "question": "How many times is India bigger than Nepal?",
+                "option1": "10 times",
+                "option2": "15 times",
+                "option3": "20 times",
+                "option4": "22 times",
+                "correctAns": "option4"
+            },
+            {
+                "question": "At what height from sea level is Tilicho Lake situated?",
+                "option1": "4200 m",
+                "option2": "4587 m",
+                "option3": "4919 m",
+                "option4": "5325 m",
+                "correctAns": "option3"
+            },
+            {
+                "question": "In which district is Arun Valley situated?",
+                "option1": "Solukhumbu",
+                "option2": "Sankhuwasabha",
+                "option3": "Dhankuta",
+                "option4": "Khotang",
+                "correctAns": "option2"
+            },
+            {
+                "question": "Which is the largest desert of Asia?",
+                "option1": "Gobi Desert",
+                "option2": "Thar Desert",
+                "option3": "Karakum Desert",
+                "option4": "Dasht-e Kavir",
+                "correctAns": "option1"
+            },
+            {
+                "question": "Where is Sri Lanka Tappu located in Nepal?",
+                "option1": "Morang",
+                "option2": "Sunsari",
+                "option3": "Jhapa",
+                "option4": "Kapilvastu",
+                "correctAns": "option2"
+            },
+            {
+                "question": "In Nepal, which river flows towards north?",
+                "option1": "Karnali",
+                "option2": "Koshi",
+                "option3": "Narayani",
+                "option4": "Gandaki",
+                "correctAns": "option1"
+            },
+            {
+                "question": "In which district is Lead's mine situated?",
+                "option1": "Kathmandu",
+                "option2": "Baglung",
+                "option3": "Rasuwa",
+                "option4": "Lamjung",
+                "correctAns": "option2"
+            },
+            {
+                "question": "In which district is Chamero Gupha (bat's cave) situated?",
+                "option1": "Kaski",
+                "option2": "Dang",
+                "option3": "Rolpa",
+                "option4": "Pyuthan",
+                "correctAns": "option2"
+            },
+            {
+                "question": "In which district is Nanda-vauju lake situated?",
+                "option1": "Chitwan",
+                "option2": "Kaski",
+                "option3": "Lamjung",
+                "option4": "Nuwakot",
+                "correctAns": "option1"
+            },
+            {
+                "question": "How many national parks are there in Nepal (as of September 2017)?",
+                "option1": "10",
+                "option2": "11",
+                "option3": "12",
+                "option4": "13",
+                "correctAns": "option3"
+            },
+            {
+                "question": "Which is the nearest seaport from Nepal?",
+                "option1": "Mumbai Seaport",
+                "option2": "Chittagong Seaport",
+                "option3": "Kolkata Seaport",
+                "option4": "Visakhapatnam Seaport",
+                "correctAns": "option3"
+            },
+            {
+                "question": "Which is the deepest lake of Nepal?",
+                "option1": "Phoksundo Lake",
+                "option2": "Rara Lake",
+                "option3": "Tilicho Lake",
+                "option4": "Shey Phoksundo Lake",
+                "correctAns": "option4"
+            }
+]
+    
+    		

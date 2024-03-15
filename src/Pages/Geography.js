@@ -1,18 +1,36 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Pages.css";
 import Quiz from "../Components/Quiz";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { Link } from "react-router-dom";
+import jsonData from "./datas/geography.json"
 
 export default function Geography() {
-  const totalQuestions = 10;
+  const totalQuestions = 5;
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [score, setScore] = useState(0);
+  const [randoms, setRandoms] = useState([]);
+
+  useEffect(() => {
+    const randoms = randomNumGenerator();
+    setRandoms(randoms);
+  }, []);
 
   const handleSubmit = () => {
     setIsSubmitted(true);
   };
 
+  // Function to generate random numbers between 0 and 10 for json file and generate random questions
+  const randomNumGenerator = () => {
+    const numbers = [];
+    while (numbers.length < totalQuestions) {
+      const randomNum = Math.floor(Math.random() * jsonData.length);
+      if (!numbers.includes(randomNum)) {
+        numbers.push(randomNum);
+      }
+    }
+    return numbers;
+  }
 
   return (
     <>
@@ -22,106 +40,35 @@ export default function Geography() {
         </Link>
       </span>
       <h1 className="history-header">Geography Quiz</h1>
-      <Quiz
-        number="1" question="Which is the biggest district of Nepal?" opt1="Kathmandu" opt2="Dolpa" opt3="Gorkha" opt4="Humla"
-        correctAnswer="option2"
-        isSubmitted={isSubmitted}
-        currentScore={score}
-        effectScore={setScore}
-      />
-      <Quiz
-        number="2" question="Where is Mt.Everest located?" opt1="Solukhumbu" opt2="Jumla" opt3="Mugu" opt4="Rasuwa"
-        correctAnswer="option1"
-        isSubmitted={isSubmitted}
-        currentScore={score}
-        effectScore={setScore}
 
-      />
-      <Quiz
-        number="3" question="Where is Bhaktapur Durbar square located?" opt1="Kathmandu" opt2="Lalitpur" opt3="Bhaktapur" opt4="Nuwakot"
-        correctAnswer="option3"
-        isSubmitted={isSubmitted}
-        currentScore={score}
-        effectScore={setScore}
+      {/* Render quiz questions */}
+      {randoms.map((randomNum, index) => (
+        <Quiz
+          key={index}
+          number={index + 1}
+          question={jsonData[randomNum].question}
+          opt1={jsonData[randomNum].option1}
+          opt2={jsonData[randomNum].option2}
+          opt3={jsonData[randomNum].option3}
+          opt4={jsonData[randomNum].option4}
+          correctAnswer={jsonData[randomNum].correctAns}
+          isSubmitted={isSubmitted}
+          currentScore={score}
+          effectScore={setScore}
+        />
+      ))}
 
-      />
-      <Quiz
-        number="4" question="Where is Gosaikunda lake located?" opt1="Kapilvastu" opt2="Gorkha" opt3="Sindhupalchowk" opt4="Rasuwa"
-        correctAnswer="option4"
-        isSubmitted={isSubmitted}
-        currentScore={score}
-        effectScore={setScore}
-
-      />
-      <Quiz
-        number="5" question="Which district is Phewa Tal from?" opt1="Pokhara" opt2="Lumbini" opt3="Kaski" opt4="Gorkha"
-        correctAnswer="option3"
-        isSubmitted={isSubmitted}
-        currentScore={score}
-        effectScore={setScore}
-
-      />
-      <Quiz
-        number="6" question="Which province is Nuwakot in?" opt1="Gandaki" opt2="Bagmati" opt3="Lumbini" opt4="Sudurpaschim"
-        correctAnswer="option2"
-        isSubmitted={isSubmitted}
-        currentScore={score}
-        effectScore={setScore}
-
-      />
-
-      <Quiz
-        number="7" question="Which district is fungfung waterfall located?" opt1="Jhapa" opt2="Rasuwa" opt3="Nuwakot" opt4="Dhading"
-        correctAnswer="option3"
-        isSubmitted={isSubmitted}
-        currentScore={score}
-        effectScore={setScore}
-
-      />
-
-
-      <Quiz
-        number="8" question="What is the name of Kathmandu-Pokhara highway?" opt1="Tribhuvan" opt2="Mahendra" opt3="Araniko" opt4="Prithivi"
-        correctAnswer="option4"
-        isSubmitted={isSubmitted}
-        currentScore={score}
-        effectScore={setScore}
-
-      />
-
-      <Quiz
-        number="9" question="Which temple is in Nepal's highest altitude?" opt1="Gosaikunda" opt2="Muktinath" opt3="Pathivara" opt4="Swayambhunath"
-        correctAnswer="option2"
-        isSubmitted={isSubmitted}
-        currentScore={score}
-        effectScore={setScore}
-
-      />
-
-      <Quiz
-        number="10" question="Which district is lalitpur located in?" opt1="Bagmati" opt2="Kathmandu" opt3="Bhaktapur" opt4="Lalitpur"
-        correctAnswer="option4"
-        isSubmitted={isSubmitted}
-        currentScore={score}
-        effectScore={setScore}
-
-      />
       {!isSubmitted && (
-        <>
         <div className="buttonSub">
           <button className="submit" onClick={handleSubmit}>
             Submit
           </button>
         </div>
-        </>
       )}
 
-      {
-        isSubmitted && (
-          <h3 className="score">SCORE ON GEOGRAPHY QUIZ: {score}/{totalQuestions}</h3>
-        )
-      }
-
+      {isSubmitted && (
+        <h3 className="score">SCORE ON HISTORY QUIZ: {score}/{totalQuestions}</h3>
+      )}
 
       <br />
       <br />

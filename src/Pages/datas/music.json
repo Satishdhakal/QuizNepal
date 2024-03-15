@@ -1,0 +1,93 @@
+[
+    {
+      "number": "1",
+      "question": "Who is known as 'Swor Samrat'?",
+      "option1": "Nabin K bhattarai",
+      "option2": "Anju Panta",
+      "option3": "Narayan Gopal",
+      "option4": "Sugam Pokharel",
+      "correctAnswer": "option3"
+    },
+    {
+      "number": "2",
+      "question": "Who is the singer of 'Lakhau Hajarau'?",
+      "option1": "Yabesh Thapa",
+      "option2": "Samir Shrestha",
+      "option3": "Shashwot Khadka",
+      "option4": "bekcha",
+      "correctAnswer": "option1"
+    },
+    {
+      "number": "3",
+      "question": "Which Nepali band sang 'Bagaicha'?",
+      "option1": "1974 AD",
+      "option2": "Nepathya",
+      "option3": "Kta haru",
+      "option4": "Phosphenes",
+      "correctAnswer": "option3"
+    },
+    {
+      "number": "4",
+      "question": "Which song is this from: 'Kalo lamo pareli kesha'?",
+      "option1": "Malai nasodha",
+      "option2": "Gajalu ti thula thula aakha",
+      "option3": "Tutnu Thiyo Tutyo Mutu",
+      "option4": "Kehi Mitho Baat Gara",
+      "correctAnswer": "option2"
+    },
+    {
+      "number": "5",
+      "question": "Who is the first rapper of Nepal?",
+      "option1": "Uniq Poet",
+      "option2": "Yama Buddha",
+      "option3": "Girish Khatiwada",
+      "option4": "Laure",
+      "correctAnswer": "option3"
+    },
+    {
+      "number": "6",
+      "question": "Who is the singer for 'Aaudai Jadai'?",
+      "option1": "The Uglyz",
+      "option2": "Kush",
+      "option3": "1974 AD",
+      "option4": "Ulto Pulto",
+      "correctAnswer": "option1"
+    },
+    {
+      "number": "7",
+      "question": "What is the most viewed Nepali song in YouTube?",
+      "option1": "Saali Man Paryo",
+      "option2": "Phul Butte Sari",
+      "option3": "Gojima Daam Chaina",
+      "option4": "Kutu ma kutu",
+      "correctAnswer": "option4"
+    },
+    {
+      "number": "8",
+      "question": "Which song is the lyrics 'K yei nai ho astitto mero' from?",
+      "option1": "Bhanai - Tribal Rain",
+      "option2": "Putali - The Elements",
+      "option3": "Bachau - Albratoss",
+      "option4": "Narisawna - Tribal Rain",
+      "correctAnswer": "option1"
+    },
+    {
+      "number": "9",
+      "question": "Who is the most viewed song of Bipul Chhetri on spotify?",
+      "option1": "Syndicate",
+      "option2": "Aashish",
+      "option3": "Ram Sailee",
+      "option4": "Asaar",
+      "correctAnswer": "option1"
+    },
+    {
+      "number": "10",
+      "question": "Who is the singer of 'Mohani lagla hai'?",
+      "option1": "Naryan Gopal",
+      "option2": "Arun Thapa",
+      "option3": "Nepathya",
+      "option4": "Albatross",
+      "correctAnswer": "option1"
+    }
+  ]
+  
