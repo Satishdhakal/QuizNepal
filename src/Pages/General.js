@@ -1,78 +1,49 @@
-import React, { useState, useEffect } from "react";
-import "./Pages.css";
-import Quiz from "../Components/Quiz";
+import React, { useState } from "react";
+import Generalques from "../Components/Generalques";
+import {NavLink} from "react-router-dom";
 import { IoMdArrowRoundBack } from "react-icons/io";
-import { Link } from "react-router-dom";
-import jsonData from "./datas/general.json"
 
 export default function Combine() {
-  const totalQuestions = 5;
-  const [isSubmitted, setIsSubmitted] = useState(false);
-  const [score, setScore] = useState(0);
-  const [randoms, setRandoms] = useState([]);
+  const [level, setLevel] = useState(false);
+  const [select, setSelect] = useState(0);
 
-  useEffect(() => {
-    const randoms = randomNumGenerator();
-    setRandoms(randoms);
-  }, []);
-
-  const handleSubmit = () => {
-    setIsSubmitted(true);
-  };
-
-  // Function to generate random numbers between 0 and 10 for json file and generate random questions
-  const randomNumGenerator = () => {
-    const numbers = [];
-    while (numbers.length < totalQuestions) {
-      const randomNum = Math.floor(Math.random() * jsonData.length);
-      if (!numbers.includes(randomNum)) {
-        numbers.push(randomNum);
-      }
-    }
-    return numbers;
+  const selectLevelOne =()=>{
+    setLevel(true);
+    setSelect(1);
   }
 
+  const selectLevelTwo =()=>{
+    setLevel(true);
+    setSelect(2);
+  }
+
+  const selectLevelThree =()=>{
+    setLevel(true);
+    setSelect(3);
+  }
+
+  const selectLevelFour =()=>{
+    setLevel(true);
+    setSelect(4);
+  }
   return (
     <>
-      <span className="iconPage">
-        <Link to="/">
-          <IoMdArrowRoundBack className="arrowIcon"/>
-        </Link>
-      </span>
-      <h1 className="history-header">General Quiz</h1>
-
-      {/* Render quiz questions */}
-      {randoms.map((randomNum, index) => (
-        <Quiz
-          key={index}
-          number={index + 1}
-          question={jsonData[randomNum].question}
-          opt1={jsonData[randomNum].option1}
-          opt2={jsonData[randomNum].option2}
-          opt3={jsonData[randomNum].option3}
-          opt4={jsonData[randomNum].option4}
-          correctAnswer={jsonData[randomNum].correctAns}
-          isSubmitted={isSubmitted}
-          currentScore={score}
-          effectScore={setScore}
-        />
-      ))}
-
-      {!isSubmitted && (
-        <div className="buttonSub">
-          <button className="submit" onClick={handleSubmit}>
-            Submit
-          </button>
+      {level ? (
+        <Generalques choseLevel={select}/>
+      ) : (
+        <div>
+          <span className="icon" id="icon">
+            <NavLink to="/"><IoMdArrowRoundBack className="arrowIcon" /></NavLink>
+          </span>
+          <h1 className="category-title">Choose difficulty: </h1>
+          <div className="button">
+            <button onClick={selectLevelOne}>Level 1</button>
+            <button onClick={selectLevelTwo}>Level 2</button>
+            <button onClick={selectLevelThree}>Level 3</button>
+            <button onClick={selectLevelFour}>Final Level</button>
+          </div>
         </div>
       )}
-
-      {isSubmitted && (
-        <h3 className="score">SCORE ON HISTORY QUIZ: {score}/{totalQuestions}</h3>
-      )}
-
-      <br />
-      <br />
-      <br />
     </>
   );
 }
