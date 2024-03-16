@@ -3,7 +3,7 @@ import "./Pages.css";
 import Quiz from "../Components/Quiz";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { Link } from "react-router-dom";
-import jsonData from "./datas/geography.json"
+import jsonData from "./datas/general.json"
 
 export default function Combine() {
   const totalQuestions = 5;

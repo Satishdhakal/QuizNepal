@@ -23,11 +23,11 @@ export default function Body(){
               <span class="icon" id="icon" onClick={()=>setContent(!content)}><IoMdArrowRoundBack className="arrowIcon"/></span>
             <h1 className="category-title">Select a category: </h1>
             <div className="button">
-            <NavLink to="/combine"><button className="all-cat">General</button></NavLink>
+            <NavLink to="/general"><button className="all-cat">General</button></NavLink>
             <NavLink to="/history" exact activeClassName="history"><button className="history">History</button></NavLink>
             <NavLink to="/geography"><button className="geography">Geography</button></NavLink>
             <NavLink to="/music"><button className="music">Music</button></NavLink>
-            <NavLink to="/internet"><button className="internet">Internet</button></NavLink>
+          
             
             </div>
         </div>
