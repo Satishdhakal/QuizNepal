@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/QuizNepal/static/css/main.95c2daf2.css",
-    "main.js": "/QuizNepal/static/js/main.1321f44e.js",
-    "index.html": "/QuizNepal/index.html",
-    "main.95c2daf2.css.map": "/QuizNepal/static/css/main.95c2daf2.css.map",
-    "main.1321f44e.js.map": "/QuizNepal/static/js/main.1321f44e.js.map"
+    "main.css": "/static/css/main.95c2daf2.css",
+    "main.js": "/static/js/main.628ac27b.js",
+    "index.html": "/index.html",
+    "main.95c2daf2.css.map": "/static/css/main.95c2daf2.css.map",
+    "main.628ac27b.js.map": "/static/js/main.628ac27b.js.map"
   },
   "entrypoints": [
     "static/css/main.95c2daf2.css",
-    "static/js/main.1321f44e.js"
+    "static/js/main.628ac27b.js"
   ]
 }
