@@ -1,0 +1,202 @@
+[
+    [
+    {
+        "question": "Which is the biggest district of Nepal?", 
+        "option1": "Kathmandu",
+        "option2": "Dolpa",
+        "option3": "Gorkha",
+        "option4": "Humla",
+        "correctAns": "option2"
+    },
+    {
+        "question": "Which is the highest mountain in Nepal and the world, located in the Himalayas?",
+        "option1": "Mount Kanchenjunga",
+        "option2": "Mount Everest",
+        "option3": "Mount Makalu",
+        "option4": "Mount Lhotse",
+        "correctAns": "option2"
+    },
+    {
+        "question": "What is the capital city of Nepal?",
+        "option1": "Pokhara",
+        "option2": "Lalitpur",
+        "option3": "Kathmandu",
+        "option4": "Biratnagar",
+        "correctAns": "option3"
+    },
+    {
+        "question": "What is the major religion practiced in Nepal?",
+        "option1": "Hinduism",
+        "option2": "Buddhism",
+        "option3": "Islam",
+        "option4": "Christianity",
+        "correctAns": "option1"
+    },
+    {
+        "question": "Which valley is known as the 'Valley of Lakes' in Nepal?",
+        "option1": "Pokhara Valley",
+        "option2": "Kathmandu Valley",
+        "option3": "Surkhet Valley",
+        "option4": "Jumla Valley",
+        "correctAns": "option1"
+    },
+    {
+        "question": "Who is the first king of Nepal?", 
+        "option1": "Mandev",
+        "option2": "Birendra Shah",
+        "option3": "Junga bahadur rana",
+        "option4": "Prithivi Narayan Shah",
+        "correctAns": "option4"
+    },
+    {
+        "question": "Who was the last king of Nepal?", 
+        "option1": "Birendra Shah",
+        "option2": "Mahendra Shah",
+        "option3": "Gyanendra Shah",
+        "option4": "Dipendra Shah",
+        "correctAns": "option3"
+    }
+],
+[
+    [  
+{
+    "question": "Which district has the lowest population in Nepal?",
+    "option1": "Manang",
+    "option2": "Mustang",
+    "option3": "Dolpa",
+    "option4": "Humla",
+    "correctAns": "option1",
+    "level": "2"
+},
+{
+    "question": "What is the oldest newspaper of Nepal?",
+    "option1": "Gorkhapatra",
+    "option2": "Kantipur",
+    "option3": "The Rising Nepal",
+    "option4": "Nagarik",
+    "correctAns": "option1",
+    "level": "2"
+},
+{
+    "question": "Who is the first Nepali to climb Mount Everest without oxygen?",
+    "option1": "Pasang Lhamu Sherpa",
+    "option2": "Phurba Tenzing Sherpa",
+    "option3": "Aang Rita Sherpa",
+    "option4": "Lhakpa Sherpa",
+    "correctAns": "option3",
+    "level": "3"
+},
+    {
+        "question": "Which river flows towards north in Nepal?",
+        "option1": "Karnali",
+        "option2": "Koshi",
+        "option3": "Narayani",
+        "option4": "Gandaki",
+        "correctAns": "option1",
+        "level": "2"
+    },
+    
+    {
+        "question": "In which district is Chamero Gupha (bat's cave) situated?",
+        "option1": "Kaski",
+        "option2": "Dang",
+        "option3": "Rolpa",
+        "option4": "Pyuthan",
+        "correctAns": "option2",
+        "level": "2"
+    },
+    {
+        "question": "In which district is Tilicho Lake located?",
+        "option1": "Mustang",
+        "option2": "Manang",
+        "option3": "Dolpa",
+        "option4": "Solukhumbu",
+        "correctAns": "option2",
+        "level": "2"
+    },
+    
+    {
+        "question": "Which is the deepest lake of Nepal?",
+        "option1": "Phoksundo Lake",
+        "option2": "Rara Lake",
+        "option3": "Tilicho Lake",
+        "option4": "Shey Phoksundo Lake",
+        "correctAns": "option4",
+        "level": "2"
+    },
+    {
+        "question": "Who is the singer of 'Lakhau Hajarau'?",
+        "option1": "Yabesh Thapa",
+        "option2": "Samir Shrestha",
+        "option3": "Shashwot Khadka",
+        "option4": "bekcha",
+        "correctAns": "option1",
+        "level": "2"
+    },
+    {
+        "question": "Which Nepali band sang 'Bagaicha'?",
+        "option1": "1974 AD",
+        "option2": "Nepathya",
+        "option3": "Kta haru",
+        "option4": "Phosphenes",
+        "correctAns": "option3",
+        "level": "2"
+    },
+    {
+        "question": "Which song is this from: 'Kalo lamo pareli kesha'?",
+        "option1": "Malai nasodha",
+        "option2": "Gajalu ti thula thula aakha",
+        "option3": "Tutnu Thiyo Tutyo Mutu",
+        "option4": "Kehi Mitho Baat Gara",
+        "correctAns": "option2",
+        "level": "2"
+    },
+    {
+        "question": "Who is the first rapper of Nepal?",
+        "option1": "Uniq Poet",
+        "option2": "Yama Buddha",
+        "option3": "Girish Khatiwada",
+        "option4": "Laure",
+        "correctAns": "option3",
+        "level": "2"
+    },
+    {
+        "question": "Who is the singer for 'Aaudai Jadai'?",
+        "option1": "The Uglyz",
+        "option2": "Kush",
+        "option3": "1974 AD",
+        "option4": "Ulto Pulto",
+        "correctAns": "option1",
+        "level": "2"
+    },
+    {
+        "question": "What is the most viewed Nepali song in YouTube?",
+        "option1": "Saali Man Paryo",
+        "option2": "Phul Butte Sari",
+        "option3": "Gojima Daam Chaina",
+        "option4": "Kutu ma kutu",
+        "correctAns": "option4",
+        "level": "2"
+    },
+    {
+        "question": "Who is the most viewed song of Bipul Chhetri on Spotify?",
+        "option1": "Asaar",
+        "option2": "Syndicate",
+        "option3": "Wildfire",
+        "option4": "Ram sailee",
+        "correctAns": "option4",
+        "level": "2"
+    },
+    {
+        "question": "Who is the singer of 'Mohani lagla hai'?",
+        "option1": "Narayan Gopal",
+        "option2": "Bartika Eam Rai",
+        "option3": "Nattu Shah",
+        "option4": "Sajjan Raj Vaidya",
+        "correctAns": "option1",
+        "level": "2"
+    }
+]
+
+]
+]

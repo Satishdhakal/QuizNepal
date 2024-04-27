@@ -3,7 +3,10 @@ import "../Pages/Pages.css";
 import Quiz from "./Quiz";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { Link } from "react-router-dom";
-import jsonData from "../Pages/datas/general.json"
+import jsonData1 from "../Pages/datas/general/levelone.json";
+import jsonData2 from "../Pages/datas/general/leveltwo.json";
+import jsonData3 from "../Pages/datas/general/levelthree.json";
+import jsonData4 from "../Pages/datas/general/levelfour.json";
 
 export default function Generalques(props) {
   const totalQuestions = 5;
@@ -11,55 +14,68 @@ export default function Generalques(props) {
   const [score, setScore] = useState(0);
   const [randoms, setRandoms] = useState([]);
 
-
   useEffect(() => {
-    const randoms = randomNumGenerator();
+    const chosenLevelData = getChosenLevelData();  // Call this function inside useEffect to use the latest prop value
+    const randoms = randomNumGenerator(chosenLevelData.length);
     setRandoms(randoms);
-  }, []);
+    console.log(jsonData1);
+  }, [props.choselevel]); // Dependency on choselevel to update when it changes
 
   const handleSubmit = () => {
     setIsSubmitted(true);
   };
 
-  // Function to generate random numbers between 0 and 10 for json file and generate random questions
-  const randomNumGenerator = () => {
-    const numbers = [];
-    while (numbers.length < totalQuestions) {
-      const randomNum = Math.floor(Math.random() * jsonData.length);
-      if (!numbers.includes(randomNum)) {
-        numbers.push(randomNum);
-      }
+  const randomNumGenerator = (dataLength) => {
+    const numbers = new Set();
+    while (numbers.size < totalQuestions) {
+      const randomNum = Math.floor(Math.random() * dataLength);
+      numbers.add(randomNum);
     }
-    return numbers;
-  }
+    return Array.from(numbers);
+  };
+
+  const getChosenLevelData = () => {
+    switch (props.choselevel) {
+      case 1:
+        return jsonData1;
+      case 2:
+        return jsonData2;
+      case 3:
+        return jsonData3;
+      case 4:
+        return jsonData4;
+      default:
+        return [];
+    }
+  };
 
   return (
     <>
-
-    
       <span className="iconPage">
         <Link to="/">
           <IoMdArrowRoundBack className="arrowIcon"/>
         </Link>
       </span>
-      <h1 className="history-header">General Quiz {props.choseLevel}</h1>
+      <h1 className="history-header">General Quiz (Level-{props.choselevel})</h1>
 
-      {/* Render quiz questions */}
-      {randoms.map((randomNum, index) => (
-        <Quiz
-          key={index}
-          number={index + 1}
-          question={jsonData[randomNum].question}
-          opt1={jsonData[randomNum].option1}
-          opt2={jsonData[randomNum].option2}
-          opt3={jsonData[randomNum].option3}
-          opt4={jsonData[randomNum].option4}
-          correctAnswer={jsonData[randomNum].correctAns}
-          isSubmitted={isSubmitted}
-          currentScore={score}
-          effectScore={setScore}
-        />
-      ))}
+      {randoms.map((randomNum, index) => {
+        const questionData = getChosenLevelData()[randomNum];
+        return (
+          <Quiz
+            key={index}
+            number={index + 1}
+            question={questionData.question}
+            opt1={questionData.option1}
+            opt2={questionData.option2}
+            opt3={questionData.option3}
+            opt4={questionData.option4}
+            correctAnswer={questionData.correctAns}
+            isSubmitted={isSubmitted}
+            currentScore={score}
+            effectScore={setScore}
+          />
+        );
+      })}
 
       {!isSubmitted && (
         <div className="buttonSub">

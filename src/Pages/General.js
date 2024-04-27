@@ -1,46 +1,36 @@
 import React, { useState } from "react";
 import Generalques from "../Components/Generalques";
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { IoMdArrowRoundBack } from "react-icons/io";
 
-export default function Combine() {
-  const [level, setLevel] = useState(false);
-  const [select, setSelect] = useState(0);
+export default function General() {
+  const [level, setLevel] = useState(null); // Initialize as null
+  const [chosenLevel, setChosenLevel] = useState(null);
 
-  const selectLevelOne =()=>{
-    setLevel(true);
-    setSelect(1);
+  const selectLevel = (level) => {
+    setLevel(level);
+    setChosenLevel(level);
   }
 
-  const selectLevelTwo =()=>{
-    setLevel(true);
-    setSelect(2);
+  const goBack = () => {
+    setLevel(null); // Reset level when going back
   }
 
-  const selectLevelThree =()=>{
-    setLevel(true);
-    setSelect(3);
-  }
-
-  const selectLevelFour =()=>{
-    setLevel(true);
-    setSelect(4);
-  }
   return (
     <>
       {level ? (
-        <Generalques choseLevel={select}/>
+        <Generalques choselevel={chosenLevel} />
       ) : (
         <div>
           <span className="icon" id="icon">
-            <NavLink to="/"><IoMdArrowRoundBack className="arrowIcon" /></NavLink>
+            <NavLink to="/" onClick={goBack}><IoMdArrowRoundBack className="arrowIcon" /></NavLink>
           </span>
           <h1 className="category-title">Choose difficulty: </h1>
           <div className="button">
-            <button onClick={selectLevelOne}>Level 1</button>
-            <button onClick={selectLevelTwo}>Level 2</button>
-            <button onClick={selectLevelThree}>Level 3</button>
-            <button onClick={selectLevelFour}>Final Level</button>
+            <button onClick={() => selectLevel(1)}>Level 1</button>
+            <button onClick={() => selectLevel(2)}>Level 2</button>
+            <button onClick={() => selectLevel(3)}>Level 3</button>
+            <button onClick={() => selectLevel(4)}>Final Level</button>
           </div>
         </div>
       )}

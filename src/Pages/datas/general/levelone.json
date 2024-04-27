@@ -1,0 +1,58 @@
+[
+    {
+        "question": "Which is the biggest district of Nepal?", 
+        "option1": "Kathmandu",
+        "option2": "Dolpa",
+        "option3": "Gorkha",
+        "option4": "Humla",
+        "correctAns": "option2"
+    },
+    {
+        "question": "Which is the highest mountain in Nepal and the world, located in the Himalayas?",
+        "option1": "Mount Kanchenjunga",
+        "option2": "Mount Everest",
+        "option3": "Mount Makalu",
+        "option4": "Mount Lhotse",
+        "correctAns": "option2"
+    },
+    {
+        "question": "What is the capital city of Nepal?",
+        "option1": "Pokhara",
+        "option2": "Lalitpur",
+        "option3": "Kathmandu",
+        "option4": "Biratnagar",
+        "correctAns": "option3"
+    },
+    {
+        "question": "What is the major religion practiced in Nepal?",
+        "option1": "Hinduism",
+        "option2": "Buddhism",
+        "option3": "Islam",
+        "option4": "Christianity",
+        "correctAns": "option1"
+    },
+    {
+        "question": "Which valley is known as the 'Valley of Lakes' in Nepal?",
+        "option1": "Pokhara Valley",
+        "option2": "Kathmandu Valley",
+        "option3": "Surkhet Valley",
+        "option4": "Jumla Valley",
+        "correctAns": "option1"
+    },
+    {
+        "question": "Who is the first king of Nepal?", 
+        "option1": "Mandev",
+        "option2": "Birendra Shah",
+        "option3": "Junga bahadur rana",
+        "option4": "Prithivi Narayan Shah",
+        "correctAns": "option4"
+    },
+    {
+        "question": "Who was the last king of Nepal?", 
+        "option1": "Birendra Shah",
+        "option2": "Mahendra Shah",
+        "option3": "Gyanendra Shah",
+        "option4": "Dipendra Shah",
+        "correctAns": "option3"
+    }
+]

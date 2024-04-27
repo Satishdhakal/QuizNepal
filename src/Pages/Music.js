@@ -51,7 +51,7 @@ export default function Music() {
           opt2={jsonData[randomNum].option2}
           opt3={jsonData[randomNum].option3}
           opt4={jsonData[randomNum].option4}
-          correctAnswer={jsonData[randomNum].correctAns}
+          correctAnswer={jsonData[randomNum].correctAnswer}
           isSubmitted={isSubmitted}
           currentScore={score}
           effectScore={setScore}

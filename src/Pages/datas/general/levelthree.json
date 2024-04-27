@@ -1,0 +1,138 @@
+[
+   
+    {
+        "question": "What is the lowest temperature ever recorded in Nepal?",
+        "option1": "-40°C",
+        "option2": "-32°C",
+        "option3": "-42°C",
+        "option4": "-56°C",
+        "correctAns": "option4",
+        "level": "3"
+    },
+    {
+        "question": "Who is the first female pilot of Nepal?",
+        "option1": "Sugam Singh",
+        "option2": "Dinesh Thapa",
+        "option3": "Priya Adhikari",
+        "option4": "Bhawana Rana",
+        "correctAns": "option3",
+        "level": "3"
+    },
+    {
+        "question": "What is the length of Nepal's longest suspension bridge?",
+        "option1": "2,128 meters",
+        "option2": "3,384 meters",
+        "option3": "1,426 meters",
+        "option4": "4,642 meters",
+        "correctAns": "option3",
+        "level": "3"
+    },
+    {
+        "question": "Who is the first female CA of Nepal?",
+        "option1": "Siddhi Kumari",
+        "option2": "Binita Joshi",
+        "option3": "Ganga G.C",
+        "option4": "Sumitra Thapaliya",
+        "correctAns": "option2",
+        "level": "3"
+    },
+    {
+        "question": "Which is the deepest gorge in Nepal?",
+        "option1": "Kali Gandaki Gorge",
+        "option2": "Bheri Gorge",
+        "option3": "Sunkoshi Gorge",
+        "option4": "Dudh Koshi Gorge",
+        "correctAns": "option1",
+        "level": "3"
+    },
+    {
+        "question": "Where is the first movie theater of Nepal?",
+        "option1": "Kathmandu",
+        "option2": "Birgunj",
+        "option3": "Pokhara",
+        "option4": "Biratnagar",
+        "correctAns": "option4",
+        "level": "3"
+    },
+    {
+        "question": "What is the elevation of Nepal's lowest point?",
+        "option1": "60 meters",
+        "option2": "70 meters",
+        "option3": "80 meters",
+        "option4": "90 meters",
+        "correctAns": "option3",
+        "level": "3"
+    },
+    {
+        "question": "Who is the first Miss Nepal?",
+        "option1": "Sahana Bajracharya",
+        "option2": "Ruby Rana",
+        "option3": "Anuradha Koirala",
+        "option4": "Rubi Gurung",
+        "correctAns": "option2",
+        "level": "3"
+    },
+    {
+        "question": "What is the main source of income of Mustang district?",
+        "option1": "Tourism",
+        "option2": "Agriculture",
+        "option3": "Remittance",
+        "option4": "Trade",
+        "correctAns": "option1",
+        "level": "3"
+    },
+    {
+        "question": "Which is the oldest university of Nepal?",
+        "option1": "Tribhuvan University",
+        "option2": "Kathmandu University",
+        "option3": "Pokhara University",
+        "option4": "Nepal Sanskrit University",
+        "correctAns": "option4",
+        "level": "3"
+    },
+    {
+        "question": "Who is the first person to reach the peak of Annapurna I?",
+        "option1": "Maurice Herzog",
+        "option2": "Reinhold Messner",
+        "option3": "Edmund Hillary",
+        "option4": "Tenzing Norgay",
+        "correctAns": "option1",
+        "level": "3"
+    },
+    {
+        "question": "How many national parks are there in Nepal (as of September 2017)?",
+        "option1": "8",
+        "option2": "21",
+        "option3": "12",
+        "option4": "31",
+        "correctAns": "option3",
+        "level": "2"
+    },
+    {
+        "question": "Which district is known as the 'Queen of Hills'?",
+        "option1": "Ilam",
+        "option2": "Dhankuta",
+        "option3": "Kavre",
+        "option4": "Sindhupalchowk",
+        "correctAns": "option1",
+        "level": "3"
+    },
+    {
+        "question": "In which district is Lead's mine situated?",
+        "option1": "Kathmandu",
+        "option2": "Baglung",
+        "option3": "Rasuwa",
+        "option4": "Lamjung",
+        "correctAns": "option2",
+        "level": "3"
+    },
+    {
+        "question": "Which is the nearest seaport from Nepal?",
+        "option1": "Mumbai Seaport",
+        "option2": "Chittagong Seaport",
+        "option3": "Kolkata Seaport",
+        "option4": "Visakhapatnam Seaport",
+        "correctAns": "option3",
+        "level": "2"
+    }
+]
