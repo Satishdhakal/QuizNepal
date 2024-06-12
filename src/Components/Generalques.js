@@ -18,11 +18,24 @@ export default function Generalques(props) {
     const chosenLevelData = getChosenLevelData();  // Call this function inside useEffect to use the latest prop value
     const randoms = randomNumGenerator(chosenLevelData.length);
     setRandoms(randoms);
-    console.log(jsonData1);
   }, [props.choselevel]); // Dependency on choselevel to update when it changes
 
   const handleSubmit = () => {
     setIsSubmitted(true);
+    if(score===totalQuestions && props.choselevel==="1"){
+      var passedLevelOne = true;
+    }else if(score===totalQuestions && props.choselevel==="2"){
+      var passedLevelTwo = true;
+    }else if(score===totalQuestions && props.choselevel==="3"){
+      var passedLevelThree = true;
+    }else if(score===totalQuestions && props.choselevel==="4"){
+      var passedLevelFour = true;
+    }
+
+    props.levelonestatus(passedLevelOne);
+    props.leveltwostatus(passedLevelTwo);
+    props.levelthreestatus(passedLevelThree);
+    props.levelfourstatus(passedLevelFour);
   };
 
   const randomNumGenerator = (dataLength) => {
@@ -48,6 +61,7 @@ export default function Generalques(props) {
         return [];
     }
   };
+
 
   return (
     <>

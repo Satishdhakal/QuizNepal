@@ -42,6 +42,19 @@
     color: rgb(119, 112, 112);
 }
 
+.locked-button{
+    opacity: 0.8 !important;
+}
+
+.not-allowed{
+    pointer-events: none !important;
+}
+
+.lock-icon{
+    position: absolute;
+    margin-left: 2em;
+}
+
 @media screen and (min-width: 30em) and (orientation: landscape) {
     /* CSS rules here */
     p {

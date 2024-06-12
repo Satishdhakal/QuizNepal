@@ -18,16 +18,16 @@
     "level": "2"
 },
 {
-    "question": "Who is the first Nepali to climb Mount Everest without oxygen?",
+    "question": "Who is the first Nepali to climb Mount Everest?",
     "option1": "Pasang Lhamu Sherpa",
     "option2": "Phurba Tenzing Sherpa",
     "option3": "Aang Rita Sherpa",
     "option4": "Lhakpa Sherpa",
-    "correctAns": "option3",
-    "level": "3"
+    "correctAns": "option1",
+    "level": "2"
 },
     {
-        "question": "Which river flows towards north in Nepal?",
+        "question": "Which is the longest river of Nepal?",
         "option1": "Karnali",
         "option2": "Koshi",
         "option3": "Narayani",
@@ -42,7 +42,7 @@
         "option2": "Dang",
         "option3": "Rolpa",
         "option4": "Pyuthan",
-        "correctAns": "option2",
+        "correctAns": "option1",
         "level": "2"
     },
     {
@@ -61,7 +61,7 @@
         "option2": "Rara Lake",
         "option3": "Tilicho Lake",
         "option4": "Shey Phoksundo Lake",
-        "correctAns": "option4",
+        "correctAns": "option2",
         "level": "2"
     },
     {
@@ -74,21 +74,21 @@
         "level": "2"
     },
     {
-        "question": "Which Nepali band sang 'Bagaicha'?",
+        "question": "Which Nepali band sang 'Taal ko Pani'?",
         "option1": "1974 AD",
         "option2": "Nepathya",
         "option3": "Kta haru",
         "option4": "Phosphenes",
-        "correctAns": "option3",
+        "correctAns": "option2",
         "level": "2"
     },
     {
-        "question": "Which song is this from: 'Kalo lamo pareli kesha'?",
+        "question": "Which song is this from: 'Bharey feri ekanta ma runu ta chadai cha'?",
         "option1": "Malai nasodha",
         "option2": "Gajalu ti thula thula aakha",
         "option3": "Tutnu Thiyo Tutyo Mutu",
         "option4": "Kehi Mitho Baat Gara",
-        "correctAns": "option2",
+        "correctAns": "option4",
         "level": "2"
     },
     {
@@ -119,7 +119,7 @@
         "level": "2"
     },
     {
-        "question": "Who is the most viewed song of Bipul Chhetri on Spotify?",
+        "question": "What is the most viewed song of Bipul Chhetri on Spotify?",
         "option1": "Asaar",
         "option2": "Syndicate",
         "option3": "Wildfire",
