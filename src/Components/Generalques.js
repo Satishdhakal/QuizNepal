@@ -10,6 +10,7 @@ import jsonData4 from "../Pages/datas/general/levelfour.json";
 
 export default function Generalques(props) {
   const totalQuestions = 5;
+  const totalLevels = 4;
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [score, setScore] = useState(0);
   const [randoms, setRandoms] = useState([]);
@@ -22,20 +23,13 @@ export default function Generalques(props) {
 
   const handleSubmit = () => {
     setIsSubmitted(true);
-    if(score===totalQuestions && props.choselevel==="1"){
-      var passedLevelOne = true;
-    }else if(score===totalQuestions && props.choselevel==="2"){
-      var passedLevelTwo = true;
-    }else if(score===totalQuestions && props.choselevel==="3"){
-      var passedLevelThree = true;
-    }else if(score===totalQuestions && props.choselevel==="4"){
-      var passedLevelFour = true;
-    }
 
-    props.levelonestatus(passedLevelOne);
-    props.leveltwostatus(passedLevelTwo);
-    props.levelthreestatus(passedLevelThree);
-    props.levelfourstatus(passedLevelFour);
+
+  if(totalQuestions === score){
+    props.levelstatus(props.level);
+  }
+
+
   };
 
   const randomNumGenerator = (dataLength) => {
