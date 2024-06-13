@@ -230,6 +230,12 @@ body{
     cursor: pointer;
 }
 
+.note-levels{
+    margin-top: 2em;
+    text-align: center;
+    opacity: 0.2;
+}
+
 @media screen and (max-width: 1147px) and (orientation: landscape){
     .arrowIcon{
         left: 200px;

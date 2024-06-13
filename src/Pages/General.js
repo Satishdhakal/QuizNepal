@@ -8,7 +8,6 @@ export default function General() {
   const [level, setLevel] = useState(null); // Initialize as null
   const [chosenLevel, setChosenLevel] = useState(null);
 
-  // Initialize levels from localStorage, or default to 0
   useEffect(() => {
     if (!localStorage.getItem("level1")) {
       localStorage.setItem("level1", 0);
@@ -71,6 +70,7 @@ export default function General() {
               <div className="locked-button"><button className="not-allowed" disabled>Final Level <IoMdLock className="lock-icon" /></button></div>
             )}
           </div>
+          
         </div>
       )}
     </>

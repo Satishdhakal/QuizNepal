@@ -27,9 +27,9 @@ export default function Body(){
             <NavLink to="/history" exact activeClassName="history"><button className="history">History</button></NavLink>
             <NavLink to="/geography"><button className="geography">Geography</button></NavLink>
             <NavLink to="/music"><button className="music">Music</button></NavLink>
-          
-            
-            </div>
+            <h3 className="note-levels">Note: Only general has levels</h3>
+
+        </div>
         </div>
         }
 

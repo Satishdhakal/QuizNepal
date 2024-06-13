@@ -8,6 +8,7 @@ import Geography from "./Pages/Geography"
 import Music from "./Pages/Music"
 import {Routes, Route} from "react-router-dom";
 import "./index.css"
+import SuccessPage from "./Pages/SuccessPage"
 
 export default function App(){
   return (
@@ -21,6 +22,7 @@ export default function App(){
         <Route path="/geography" element={<Geography />} />
         <Route path="/music" element={<Music />} />
         <Route path="/general" element={<General />} />
+        <Route path="/success" element={<SuccessPage />} />
       </Routes>
     
 

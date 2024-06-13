@@ -1,19 +1,20 @@
 import React, { useState, useEffect } from "react";
 import "../Pages/Pages.css";
 import Quiz from "./Quiz";
-import { IoMdArrowRoundBack } from "react-icons/io";
 import { Link } from "react-router-dom";
+import { IoMdArrowRoundBack } from "react-icons/io";
 import jsonData1 from "../Pages/datas/general/levelone.json";
 import jsonData2 from "../Pages/datas/general/leveltwo.json";
 import jsonData3 from "../Pages/datas/general/levelthree.json";
 import jsonData4 from "../Pages/datas/general/levelfour.json";
 
+
 export default function Generalques(props) {
   const totalQuestions = 5;
-  const totalLevels = 4;
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [score, setScore] = useState(0);
   const [randoms, setRandoms] = useState([]);
+  const [won, setWon] = useState(false);
 
   useEffect(() => {
     const chosenLevelData = getChosenLevelData();  // Call this function inside useEffect to use the latest prop value
@@ -24,12 +25,10 @@ export default function Generalques(props) {
   const handleSubmit = () => {
     setIsSubmitted(true);
 
-
-  if(totalQuestions === score){
-    props.levelstatus(props.level);
-  }
-
-
+    if(totalQuestions === score){
+      props.levelstatus(props.level);
+      setWon(true);
+    }
   };
 
   const randomNumGenerator = (dataLength) => {
@@ -85,16 +84,25 @@ export default function Generalques(props) {
         );
       })}
 
+
       {!isSubmitted && (
         <div className="buttonSub">
+          <Link to={won && props.level===4?"success":"/general"}>
           <button className="submit" onClick={handleSubmit}>
             Submit
           </button>
+          </Link>
         </div>
       )}
 
       {isSubmitted && (
-        <h3 className="score">SCORE ON HISTORY QUIZ: {score}/{totalQuestions}</h3>
+        <>
+        <h3 className="score">SCORE: {score}/{totalQuestions} - Level {won?"Completed": "Failed"}</h3>
+        {!won?
+          <h3 className="score"><button onClick={()=>window.location.reload()}>Retry</button></h3>:
+          <h3 className="score"><button onClick={()=>window.location.reload()}>Next Level</button></h3>
+        }
+        </>
       )}
 
       <br />

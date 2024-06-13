@@ -55,6 +55,11 @@
     margin-left: 2em;
 }
 
+.success-text{
+  text-align: center;  
+  margin-top: 2em;
+}
+
 @media screen and (min-width: 30em) and (orientation: landscape) {
     /* CSS rules here */
     p {
